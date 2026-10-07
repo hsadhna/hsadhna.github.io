@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Harshita Sadhna · Personal Disclosure Report</title>
+<meta name="description" content="Harshita Sadhna: climate reporting, GHG accounting and sustainable finance. Portfolio written as a climate disclosure report.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#FFFFFF;--ink:#141816;--muted:#5E6762;--faint:#8C948F;--rule:#E2E6E3;--rule2:#141816;--green:#0E5C3A;--green-t:#E7F0EA;--warn:#9A5B13;--warn-t:#F6EEE3;
+--serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--mono:"IBM Plex Mono",ui-monospace,"SF Mono",Menlo,monospace;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#101311;--ink:#E8ECE9;--muted:#A2ABA6;--faint:#78817C;--rule:#262C29;--rule2:#E8ECE9;--green:#6CC59A;--green-t:#15271E;--warn:#E0A55E;--warn-t:#2A2117}}
+:root[data-theme="dark"]{--paper:#101311;--ink:#E8ECE9;--muted:#A2ABA6;--faint:#78817C;--rule:#262C29;--rule2:#E8ECE9;--green:#6CC59A;--green-t:#15271E;--warn:#E0A55E;--warn-t:#2A2117}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 24px);scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:var(--green);text-underline-offset:3px;text-decoration-thickness:1px}
+a:focus-visible,input:focus-visible,button:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.page{max-width:1180px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:64px}
+/* contents rail */
+.rail{position:sticky;top:calc(env(safe-area-inset-top,0px) + 32px);align-self:start;padding-top:40px;font-size:13px}
+.rail .k{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint);margin-bottom:14px}
+.rail ol{list-style:none;margin:0;padding:0;border-top:1px solid var(--rule2)}
+.rail li{border-bottom:1px solid var(--rule)}
+.rail a{display:grid;grid-template-columns:30px 1fr;padding:9px 0;color:var(--muted);text-decoration:none}
+.rail a span{font-family:var(--mono);color:var(--faint)}
+.rail a:hover,.rail a.on{color:var(--ink)} .rail a.on span{color:var(--green)}
+.rail .contact{margin-top:28px;line-height:1.8}
+.rail .contact a{display:inline;padding:0;color:var(--green)}
+main{padding:40px 0 96px;min-width:0}
+/* cover */
+.cover{border-top:3px solid var(--rule2);padding-top:14px;margin-bottom:72px}
+.cover .top{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.04em;text-transform:uppercase}
+.cover h1{font-family:var(--serif);font-weight:500;font-size:clamp(48px,8vw,96px);line-height:.98;letter-spacing:-.025em;margin:56px 0 20px}
+.cover .lede{font-family:var(--serif);font-size:clamp(20px,2.4vw,26px);line-height:1.4;max-width:30ch;margin:0}
+.keyfig{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule);margin-top:56px}
+.keyfig div{padding:16px 16px 18px 0}
+.keyfig div+div{padding-left:16px;border-left:1px solid var(--rule)}
+.keyfig b{display:block;font-family:var(--mono);font-weight:500;font-size:28px;letter-spacing:-.02em}
+.keyfig small{display:block;color:var(--muted);font-size:13px;line-height:1.4;margin-top:4px}
+/* sections */
+section{padding:0 0 72px}
+.sh{display:grid;grid-template-columns:56px 1fr;align-items:baseline;border-top:1px solid var(--rule2);padding-top:12px;margin-bottom:28px}
+.sh .n{font-family:var(--mono);font-size:13px;color:var(--green)}
+.sh h2{font-family:var(--serif);font-weight:500;font-size:34px;line-height:1.1;margin:0}
+.sh h2 em{font-style:normal;color:var(--faint);font-size:15px;font-family:var(--mono);display:block;margin-bottom:6px;letter-spacing:.04em;text-transform:uppercase}
+.body{margin-left:56px;max-width:68ch}
+.body p{margin:0 0 16px}
+.wide{margin-left:56px}
+.req{font-family:var(--mono);font-size:12px;color:var(--faint);letter-spacing:.03em;margin-bottom:10px}
+/* principles */
+.princ{margin-left:56px;display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule)}
+.princ div{padding:18px 20px 4px 0}
+.princ div+div{padding-left:20px;border-left:1px solid var(--rule)}
+.princ h3{font-family:var(--serif);font-weight:500;font-size:21px;line-height:1.25;margin:0 0 8px}
+.princ p{margin:0;color:var(--muted);font-size:15px}
+/* case */
+.case{margin:0 0 64px 56px}
+.case h3{font-family:var(--serif);font-weight:500;font-size:28px;line-height:1.2;margin:0 0 6px;max-width:28ch}
+.case .meta{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.03em;margin-bottom:20px}
+.case .cols{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px}
+.case p{margin:0 0 14px}
+.case dl{margin:0;display:grid;grid-template-columns:110px 1fr;row-gap:10px;column-gap:16px;font-size:15px}
+.case dt{font-family:var(--mono);font-size:12px;color:var(--faint);text-transform:uppercase;letter-spacing:.05em;padding-top:3px}
+.case dd{margin:0}
+.files{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.files a{font-family:var(--mono);font-size:13px;padding:8px 12px;border:1px solid var(--rule2);color:var(--ink);text-decoration:none}
+.files a:hover{background:var(--ink);color:var(--paper)}
+/* model */
+.model{border:1px solid var(--rule2);margin-top:32px}
+.model header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;padding:12px 18px;border-bottom:1px solid var(--rule)}
+.model header b{font-family:var(--serif);font-weight:500;font-size:20px}
+.model header span{font-family:var(--mono);font-size:12px;color:var(--faint)}
+.model .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}
+.ctrl{padding:18px;border-right:1px solid var(--rule)}
+.ctrl label{display:block;font-size:14px;margin-bottom:4px}
+.ctrl .val{font-family:var(--mono);float:right;color:var(--green)}
+.ctrl input[type=range]{width:100%;accent-color:var(--green);margin:6px 0 4px}
+.ctrl .hint{font-size:12.5px;color:var(--faint);margin:0 0 18px;line-height:1.45}
+.ctrl button{font:13px var(--mono);background:none;border:1px solid var(--rule2);color:var(--ink);padding:6px 10px;cursor:pointer}
+.out{padding:18px}
+.total{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--rule);padding-bottom:14px;margin-bottom:14px}
+.total b{font-family:var(--mono);font-weight:500;font-size:40px;letter-spacing:-.03em;line-height:1}
+.total i{font-style:normal;font-family:var(--mono);font-size:14px;padding:3px 7px}
+.total i.dn{background:var(--green-t);color:var(--green)} .total i.up{background:var(--warn-t);color:var(--warn)} .total i.eq{color:var(--faint)}
+.total small{width:100%;color:var(--muted);font-size:13px}
+.r{display:grid;grid-template-columns:118px 1fr 62px;gap:10px;align-items:center;font-size:13px;margin-bottom:7px}
+.r .t{height:10px;background:var(--rule);position:relative}
+.r .f{position:absolute;inset:0 auto 0 0;background:var(--ink);transition:width .25s ease}
+.r .g{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--faint)}
+.r .v{font-family:var(--mono);text-align:right;color:var(--muted)}
+.model .foot{border-top:1px solid var(--rule);padding:10px 18px;font-size:12.5px;color:var(--faint)}
+/* tables */
+.tbl{overflow-x:auto;margin-top:8px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:14.5px}
+th{font-family:var(--mono);font-weight:400;font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--faint);text-align:left;padding:8px 14px 8px 0;border-bottom:1px solid var(--rule2)}
+td{padding:11px 14px 11px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+td:first-child{width:34%}
+.tag{font-family:var(--mono);font-size:12px;white-space:nowrap}
+.note{font-size:13px;color:var(--faint);margin-top:12px}
+sup a{font-family:var(--mono);font-size:11px;text-decoration:none}
+.fn{margin-left:56px;border-top:1px solid var(--rule);padding-top:12px;font-size:13px;color:var(--muted);max-width:76ch}
+.fn p{margin:0 0 6px}
+@media (max-width:960px){.page{grid-template-columns:1fr;gap:0}.rail{position:static;padding-top:24px}.rail ol{display:none}.rail .k{display:none}.rail .contact{margin:0;font-family:var(--mono);font-size:12px}}
+@media (max-width:760px){.body,.wide,.princ,.case,.fn{margin-left:0}.sh{grid-template-columns:40px 1fr}.keyfig{grid-template-columns:1fr 1fr}.keyfig div:nth-child(3){padding-left:0;border-left:0}.keyfig div:nth-child(n+3){border-top:1px solid var(--rule)}
+.princ{grid-template-columns:1fr}.princ div+div{padding-left:0;border-left:0;border-top:1px solid var(--rule)}.case .cols{grid-template-columns:1fr;gap:20px}.model .grid{grid-template-columns:1fr}.ctrl{border-right:0;border-bottom:1px solid var(--rule)}.r{grid-template-columns:100px 1fr 54px}}
+</style>
+</head>
+<body>
+<div class="page">
+<aside class="rail" aria-label="Contents">
+<div class="k">Contents</div>
+<ol>
+<li><a href="#governance"><span>01</span>Governance</a></li>
+<li><a href="#strategy"><span>02</span>Strategy</a></li>
+<li><a href="#risk"><span>03</span>Risk management</a></li>
+<li><a href="#metrics"><span>04</span>Metrics</a></li>
+<li><a href="#targets"><span>05</span>Targets</a></li>
+<li><a href="#appendix"><span>A</span>Appendix</a></li>
+</ol>
+<div class="contact"><a href="mailto:hsadhna@student.ubc.ca">hsadhna@student.ubc.ca</a><br><a href="https://linkedin.com/in/harshitasadhna">LinkedIn</a></div>
+</aside>
+
+<main>
+<div class="cover">
+<div class="top"><span>Personal disclosure report</span><span>Prepared under the CSDS 2 structure, loosely</span><span>Vancouver · 2026</span></div>
+<h1>Harshita<br>Sadhna</h1>
+<p class="lede">I measure emissions, read climate disclosures closely, and turn both into decisions a business or an investor can act on.</p>
+<div class="keyfig">
+<div><b>100+</b><small>TSX companies benchmarked against CSDS 2</small></div>
+<div><b>S1–S3</b><small>Full GHG inventory built for an SME manufacturer</small></div>
+<div><b>50+</b><small>Economics students mentored one-on-one</small></div>
+<div><b>Feb 2027</b><small>CFA Level I exam</small></div>
+</div>
+</div>
+
+<section id="governance">
+<div class="sh"><span class="n">01</span><h2><em>Governance</em>Who is responsible</h2></div>
+<div class="body">
+<p class="req">Who oversees this report, and with what skills</p>
+<p>I'm a fourth-year Economics student at UBC with a Commerce minor from Sauder, graduating in December 2026. Right now I'm the Energy and GHG Emissions Coordinator with UBC Campus + Community Planning.</p>
+<p>My background runs across both sides of climate work: measuring emissions for a company, and judging how well companies report theirs. I hold credentials in Climate Reporting Analysis and Life Cycle Assessment for SMEs.</p>
+</div>
+</section>
+
+<section id="strategy">
+<div class="sh"><span class="n">02</span><h2><em>Strategy</em>Where I'm heading</h2></div>
+<div class="body">
+<p class="req">Opportunities identified, and the plan to pursue them</p>
+<p>I'm looking for roles in climate risk, sustainable finance and ESG reporting, where emissions data feeds a real financial or strategic decision.</p>
+<p>The question I keep coming back to sits where AI, climate policy and finance meet: as disclosure becomes mandatory, how do lenders and investors turn thousands of pages of reports into something they can price?</p>
+</div>
+</section>
+
+<section id="risk">
+<div class="sh"><span class="n">03</span><h2><em>Risk management</em>How I handle bad data</h2></div>
+<p class="req" style="margin-left:56px">Processes to identify and manage risk</p>
+<div class="princ">
+<div><h3>Every gap gets a written assumption</h3><p>When a client couldn't tell me shipping ports or truck loads, I picked a defensible default, wrote it down, and gave them a list of data to collect next year.</p></div>
+<div><h3>No evidence, no credit</h3><p>A company "committing" to report Scope 3 next year scores N. A framework index isn't proof. I record the page for every Y.</p></div>
+<div><h3>Follow the biggest number</h3><p>In my SME inventory, Scope 3 was 98.8% of the total. That told the client to talk to suppliers before buying new boilers.</p></div>
+</div>
+</section>
+
+<section id="metrics">
+<div class="sh"><span class="n">04</span><h2><em>Metrics</em>The work</h2></div>
+
+<article class="case">
+<h3>A carbon footprint and net-zero roadmap for a textile manufacturer</h3>
+<div class="meta">BMO SME CLIMATE CLINIC · UBC SAUDER · CLIMATE REPORTING ANALYST · TEAM OF 2</div>
+<div class="cols">
+<div>
+<p>A Canadian knitting mill wanted its first carbon footprint and a plan it could afford to follow. Our first pass used dollars spent, which said little about where emissions came from.</p>
+<p>I rebuilt the model around physical quantities: kilograms of yarn by fibre and country, freight in tonne-kilometres, commuting by mode. The result was several times higher than the spend-based number, and it showed exactly where the emissions sit.</p>
+</div>
+<dl>
+<dt>Method</dt><dd>GHG Protocol, operational control, activity-based</dd>
+<dt>Scope</dt><dd>Scopes 1 and 2, Scope 3 categories 1, 4, 6, 7 and 9</dd>
+<dt>Finding</dt><dd>Purchased yarn and fabric are about 95% of Scope 3</dd>
+<dt>Output</dt><dd>Four-phase roadmap to 2050 and a data request list</dd>
+</dl>
+</div>
+
+<div class="model" id="model">
+<header><b>Try the model</b><span>FICTIONALIZED DATA · LIVE CALCULATION</span></header>
+<div class="grid">
+<div class="ctrl">
+<label for="rpet">Recycled polyester share <span class="val" id="rpetV">0%</span></label>
+<input type="range" id="rpet" min="0" max="100" step="5" value="0">
+<p class="hint">Share of polyester yarn switched to recycled PET. Assumes a 50% lower factor than virgin polyester (illustrative).</p>
+<label for="us">Sourcing moved from India to the US <span class="val" id="usV">0 pts</span></label>
+<input type="range" id="us" min="0" max="35" step="5" value="0">
+<p class="hint">Changes the cotton factor by country and the sea distance travelled.</p>
+<button type="button" id="reset">Reset to baseline</button>
+</div>
+<div class="out" aria-live="polite">
+<div class="total"><b id="tot">7,870</b><i id="chg" class="eq">baseline</i><small>Total tCO₂e, Scopes 1 to 3</small></div>
+<div id="rows"></div>
+</div>
+</div>
+<div class="foot">Grey tick marks the baseline. The company and all figures are fictional; methods and emission factors follow the original project.<sup><a href="#fn1">1</a></sup></div>
+</div>
+<div class="files"><a href="assets/GHG_Case_Study_Textile_Portfolio.pdf">Case study deck · PDF</a><a href="assets/GHG_Inventory_Model_Textile_Portfolio.xlsx">Calculation model · XLSX</a></div>
+</article>
+
+<article class="case">
+<h3>Benchmarking 100+ company climate disclosures against CSDS 2</h3>
+<div class="meta">CANADA CLIMATE LAW INITIATIVE · RESEARCH</div>
+<div class="cols">
+<div>
+<p>I read sustainability and climate reports from TSX-listed companies and scored each against the Canadian Sustainability Disclosure Standard 2, with a page reference for every requirement met.</p>
+<p>The hard part was consistency. The calls below came up again and again, and getting them the same way every time is what makes a benchmark usable.</p>
+</div>
+<dl>
+<dt>Standard</dt><dd>CSDS 2, governance through targets</dd>
+<dt>Sample</dt><dd>100+ TSX-listed companies</dd>
+<dt>Rule</dt><dd>2026 reports covering 2025 data only</dd>
+<dt>Output</dt><dd>Requirement-level scores with evidence</dd>
+</dl>
+</div>
+<div class="tbl">
+<table>
+<thead><tr><th>Situation</th><th>How I scored it</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Company withdrew environmental claims citing Bill C-59</td><td class="tag">No eligible report</td><td>New Competition Act rules changed what some issuers are willing to publish</td></tr>
+<tr><td>Commitment to disclose Scope 3 "next year"</td><td class="tag">N</td><td>An intention is not a disclosure</td></tr>
+<tr><td>Report cites TCFD with an index</td><td class="tag">Verified item by item</td><td>An index entry alone is not evidence</td></tr>
+<tr><td>Broad safe-harbour disclaimer on emissions data</td><td class="tag">Scored, flagged</td><td>The data is still disclosed, but users should know the caveat</td></tr>
+<tr><td>Short performance summary instead of a full report</td><td class="tag">Not a full report</td><td>The company itself labels it a summary</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">CCLI research results are not shown. The framework file scores a fictional company.<sup><a href="#fn2">2</a></sup></p>
+<div class="files"><a href="assets/CSDS2_Assessment_Framework_Portfolio.xlsx">Assessment framework · XLSX</a></div>
+</article>
+</section>
+
+<section id="targets">
+<div class="sh"><span class="n">05</span><h2><em>Targets</em>What's next</h2></div>
+<div class="wide tbl">
+<table>
+<thead><tr><th>Target</th><th>Date</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>BA Economics, Commerce minor, UBC</td><td class="tag">Dec 2026</td><td>On track</td></tr>
+<tr><td>CFA Level I</td><td class="tag">Feb 2027</td><td>Studying</td></tr>
+<tr><td>Energy and GHG Emissions Coordinator, UBC</td><td class="tag">Sep 2026 – Apr 2027</td><td>In progress</td></tr>
+<tr><td>Full-time role in climate risk, sustainable finance or ESG reporting</td><td class="tag">2027</td><td><a href="mailto:hsadhna@student.ubc.ca">Open to conversations</a></td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="appendix">
+<div class="sh"><span class="n">A</span><h2><em>Appendix</em>Experience</h2></div>
+<div class="wide tbl">
+<table>
+<thead><tr><th>Organization</th><th>Role</th></tr></thead>
+<tbody>
+<tr><td>UBC Campus + Community Planning</td><td>Energy and GHG Emissions Coordinator</td></tr>
+<tr><td>Canada Climate Law Initiative</td><td>Research, climate disclosure benchmarking</td></tr>
+<tr><td>Coast Capital Savings</td><td>Climate Strategy and Sustainable Finance Intern</td></tr>
+<tr><td>BMO SME Climate Clinic, UBC Sauder</td><td>Climate Reporting Analyst</td></tr>
+<tr><td>UBC Sauder School of Business</td><td>Undergraduate Research Assistant, patent readability and innovation</td></tr>
+<tr><td>Centrum Wealth</td><td>Wealth Management Intern</td></tr>
+<tr><td>Vancouver School of Economics, UBC</td><td>Peer Assistant</td></tr>
+<tr><td>Commons Energy UBC</td><td>Sustainability and climate engagement</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<div class="fn">
+<p id="fn1"><sup>1</sup> The client's name and data are confidential. "Northline Knitwear" and every figure here are invented for this portfolio.</p>
+<p id="fn2"><sup>2</sup> Requirement wording in the framework file is paraphrased from CSDS 2.</p>
+<p>This page borrows the four CSDS 2 pillars as its structure, because that's the lens I use for everything else.</p>
+</div>
+</main>
+</div>
+<script>
+(function(){
+const SEA=0.00826/1000, EFc={India:3.70,China:3.53,US:3.43}, EFp=6.80, km={India:17618,China:9464,US:2152};
+const FIX={s1:77.37,s2:19.5,fabric:2570,fabSea:100*9464*SEA,rail:52.54,truck:2.85,down:69.33,commute:18.69,travel:5.03};
+const Y=1000, cot=.58, pol=.42;
+function calc(rpet,shift){
+ const sh={India:.50-shift,China:.35,US:.15+shift};let cotton=0,poly=0,sea=FIX.fabSea;
+ for(const c in sh){const t=Y*sh[c];cotton+=t*cot*EFc[c];poly+=t*pol*EFp*(1-rpet*.5);sea+=t*km[c]*SEA;}
+ const rows=[['Polyester yarn',poly],['Polyester fabric',FIX.fabric],['Cotton yarn',cotton],['Freight in',sea+FIX.rail+FIX.truck],['Freight out',FIX.down],['Scopes 1 + 2',FIX.s1+FIX.s2],['Commute + travel',FIX.commute+FIX.travel]];
+ return {rows,total:rows.reduce((a,r)=>a+r[1],0)};}
+const base=calc(0,0), max=Math.max(...base.rows.map(r=>r[1]));
+const fmt=v=>Math.round(v).toLocaleString('en-CA');
+const $=id=>document.getElementById(id);
+function draw(){
+ const rp=+$('rpet').value/100, us=+$('us').value/100; $('rpetV').textContent=Math.round(rp*100)+'%'; $('usV').textContent=Math.round(us*100)+' pts';
+ const r=calc(rp,us); $('tot').textContent=fmt(r.total);
+ const d=(r.total-base.total)/base.total*100, c=$('chg');
+ if(Math.abs(d)<.05){c.textContent='baseline';c.className='eq';}else{c.textContent=(d>0?'+':'−')+Math.abs(d).toFixed(1)+'%';c.className=d<0?'dn':'up';}
+ $('rows').innerHTML=r.rows.map((x,i)=>`<div class="r"><span>${x[0]}</span><div class="t"><div class="f" style="width:${(x[1]/max*100).toFixed(2)}%"></div><div class="g" style="left:${(base.rows[i][1]/max*100).toFixed(2)}%"></div></div><span class="v">${fmt(x[1])}</span></div>`).join('');}
+$('rpet').addEventListener('input',draw);$('us').addEventListener('input',draw);
+$('reset').addEventListener('click',()=>{$('rpet').value=0;$('us').value=0;draw();});draw();
+const links=[...document.querySelectorAll('.rail ol a')];
+if('IntersectionObserver' in window){const io=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id));}});},{rootMargin:'-30% 0px -60% 0px'});
+document.querySelectorAll('section[id]').forEach(s=>io.observe(s));}
+})();
+</script>
+</body>
+</html>
